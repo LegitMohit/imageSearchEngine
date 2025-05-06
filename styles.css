@@ -171,6 +171,8 @@ h1 {
    display: grid;
    grid-template-columns:1fr 1fr 1fr;
    grid-gap: 40px;
+   position: relative;
+   min-height: 300px;
 }
 .search-results img{
     width: 100%;
@@ -402,4 +404,21 @@ button:hover, .show-more-btn:hover {
     .social-links {
         justify-content: center;
     }
+}
+
+.error-message {
+    text-align: center;
+    color: #dc3545;
+    font-size: 1.1rem;
+    padding: 1rem;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 } 
