@@ -21,7 +21,7 @@ async function searchImages() {
         image.src = result.urls.small;
         const imageLink = document.createElement('a');
         //imageLink.href = result.links.html;
-        imageLink.href = "";
+        //imageLink.href = "";
         imageLink.target = '_blank';
         imageLink.appendChild(image);
         searchResults.appendChild(imageLink);
